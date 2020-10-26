@@ -25,12 +25,6 @@ var final1 = palabrasLargas.substr(1,10);
 var final2 = palabrasLargas.substr(12,14);
 var final = comienzo1.toUpperCase(0) + final1 + comienzo2.toUpperCase() + final2;
 
-
-console.log(comienzo1);
-console.log(comienzo2);
-console.log(final);
-
-
 /*Results
 console.log(cincoLetras);
 console.log(ultimasTresLetras);
@@ -38,6 +32,9 @@ console.log(primerLetra);
 console.log(otrasLetras);
 console.log(complete);
 console.log(espacio);
+console.log(comienzo1);
+console.log(comienzo2);
+console.log(final);
 */
 
 
