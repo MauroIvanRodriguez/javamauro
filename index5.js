@@ -17,8 +17,8 @@ for (first = 0; first <= fruits.length-1; first++){
 alert(sentence);*/
 
 // Item d)
-var first = []
+/*var first = []
 for (i=0;i<=9;i++){
     first.push(i);
 }
-console.log(first);
+console.log(first);*/
