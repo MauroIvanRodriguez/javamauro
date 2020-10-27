@@ -1,30 +1,26 @@
-// Item a)
+/* Item a)
 var profesion = "pediatrics";
-/*console.log( "profesion".toUpperCase());*/
+/*console.log( "profesion".toUpperCase());
 
 // Item b)
-var cincoLetras = profesion.substr(0,5);
+var fiveLetters = profesion.substring(0,5);
 
 // Item c)
-var ultimasTresLetras = profesion.substr(-3,3);
+var lastThreeLetters = profesion.substring(-3,3);*/
 
-// Item d)
-var primerLetra = profesion.substr(0,1);
-var otrasLetras = profesion.substr(1,10);
-var complete = primerLetra.toUpperCase() + otrasLetras.toLowerCase();
+/* Item d)
+var profesion = "pediatrics";
+var complete1 = profesion.substring(0,1).toUpperCase() + profesion.substring(1).toLowerCase();
+console.log(complete1);
 
 // Item e)
-var frase= "Ingeniería Civil";
-var espacio = frase.indexOf(" ");
+var words= "Ingeniería Civil";
+var blankSpace = words.indexOf(" ");
 
 // Item f)
-var palabrasLargas = "ingeniería electromecánica"
-var comienzo1= palabrasLargas.substr(0,1);
-var comienzo2= palabrasLargas.substr(11,1);
-var final1 = palabrasLargas.substr(1,10);
-var final2 = palabrasLargas.substr(12,14);
-var final = comienzo1.toUpperCase(0) + final1 + comienzo2.toUpperCase() + final2;
-
+var longWords = "ingeniería electromecánica"
+var final1 = longWords.substring(0,1).toUpperCase() + longWords.substring(1,11).toLowerCase() + longWords.substring(11,12).toUpperCase() + longWords.substring(12,26).toLowerCase();
+console.log(final1);
 /*Results
 console.log(cincoLetras);
 console.log(ultimasTresLetras);

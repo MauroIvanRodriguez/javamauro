@@ -1,4 +1,4 @@
-// Item a)
+/* Item a)
 var num = Math.random();
 console.log(num);
 if(num>=0.5){
@@ -27,4 +27,4 @@ if(age <= 2){
     alert("Adulto mayor");
 }else {
     alert("Anciano");
-}
+}*/
