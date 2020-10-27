@@ -1,4 +1,4 @@
-/* Item a)
+// Item a)
 var num1 = 2;
 var num2 = 4;
 var num3= num1 + num2;
